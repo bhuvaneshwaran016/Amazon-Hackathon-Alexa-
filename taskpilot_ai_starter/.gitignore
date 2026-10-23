@@ -1,0 +1,57 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credentials and tokens
+client_secret.json
+google_token.json
+token.json
+credentials.json
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local databases and database backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs
+*.log
+logs/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution output
+build/
+dist/
+*.egg-info/
+
+# Local temporary files
+tmp/
+temp/
